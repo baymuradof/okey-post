@@ -1,0 +1,1280 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.nav{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+nav{
+    display: flex;
+    gap: 40px;
+}
+nav li{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1F2428;
+}
+.entrance{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.user a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.user h3{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+    color: #1F2428;
+}
+.nav-btn{
+    width: 170px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+    box-shadow: 0px 4px 4px rgba(1, 203, 124, 0.2);
+    border-radius: 36px;
+}
+#menu{
+    display: none;
+    font-size: 28px;
+}
+.delivery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+    background: linear-gradient(79.63deg, #5B52A3 1.08%, #40B8EA 100%);
+    border-radius: 36px;
+}
+.delivery .left h1{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 80px;
+    color: #FFFFFF;
+    max-width: 565px;
+    width: 100%;
+}
+.delivery .left p{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 42px;
+    color: #FFFFFF;
+    max-width: 575px;
+    width: 100%;
+    margin-top: 8px;
+}
+.delivery .left button{
+    border: none;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 260px;
+    width: 100%;
+    height: 66px;
+    background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+    box-shadow: 0px 4px 4px rgba(1, 203, 124, 0.2);
+    border-radius: 36px;
+    margin-top: 36px;
+}
+.delivery .right{
+    max-width: 573px;
+    width: 100%;
+    height: 571.12px;
+    margin: 40px;
+}
+.delivery .right img{
+    width: 100%;
+}
+#checkbox{
+    display: none;
+}
+#checkbox:checked ~ nav{
+    left: 0%;
+}
+nav .user{
+    display: none;
+}
+nav .nav-btn{
+    display: none;
+}
+label{
+    position: relative;
+    z-index: 100;
+}
+.many{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.many h2{
+    width: 477px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 50px;
+    color: #1F2428;
+}
+.many .card{
+    max-width: 179px;
+    width: 100%;
+    height: 100px;  
+    transition: 0.4s;
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    justify-content: center;
+}
+.many .card h3{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1F2428;
+}
+.many .cards{
+    display: flex;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 70px rgba(138, 138, 138, 0.1);
+    border-radius: 16px;
+    margin-top: 40px;
+}
+.many .card:hover{
+    background: #F2F6FC;
+}
+.dific .left h2{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #1F2428;
+    max-width: 400px;
+    width: 100%;
+}
+.dific{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 50px;
+    align-items: center;
+}
+.dific .left{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.dific .left .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    width: 400px;
+    height: 120px;
+    background: #F2F6FC;
+    border-radius: 16px;
+}
+.dific .left .card h3{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1F2428;
+}
+.dific .left .card p{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #1F2428;
+}
+.dific-bottom{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.dific-bottom .left{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.dific-bottom .mid p{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    color: #1F2428;
+}   
+.dific-bottom .mid h2{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #1F2428;
+}
+.econom-cards{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 70px rgba(138, 138, 138, 0.1);
+    border-radius: 16px;
+}
+.econom-cards .card{
+    width: 25%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    transition: 0.5s;
+}
+.econom-cards .card:hover{
+    background-color: #F2F6FC;
+}
+.econom-cards .card p{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1F2428;
+    max-width: 88px;
+    width: 100%;
+}
+.our{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    background: linear-gradient(79.63deg, #5B52A3 1.08%, #40B8EA 100%);
+    border-radius: 36px;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+.our .left{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.our .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.our .right h2{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #FFFFFF;
+    max-width: 703px;
+    width: 100%;
+}
+.our .right p{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.our .right button{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 240px;
+    height: 66px;
+    border: none;
+    background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+    box-shadow: 0px 4px 4px rgba(1, 203, 124, 0.2);
+    border-radius: 36px;
+}
+.okey-post{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+.okey-post h2{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 56px;
+    color: #1F2428;
+    max-width: 784px;
+    width: 100%;
+}
+.okey-post h3{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+    color: #1F2428;
+    max-width: 670px;
+    width: 100%;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+.card-section{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 70px rgba(138, 138, 138, 0.1);
+    border-radius: 16px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+.card-section button{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+    max-width: 240px;
+    width: 100%;
+    height: 66px;
+    box-shadow: 0px 4px 4px rgba(1, 203, 124, 0.2);
+    border-radius: 36px;
+    border: none;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.card-section .card strong{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #222222;
+}
+.card-section .cards{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+}
+.card-section .card{
+    width: 226px;
+    border-bottom: 0.5px solid black;
+}
+.mor{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mor h4{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+    padding-bottom: 10px;
+}
+.for{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.for h2{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 56px;
+    color: #1F2428;
+    max-width: 651px;
+    width: 100%;
+}
+.for .cards .card .text{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+.for .cards .card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 70px rgba(138, 138, 138, 0.1);
+    border-radius: 16px;
+    margin-top: 20px;
+    }
+.for .cards h4{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #222222; 
+}
+.for .cards .card h3{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #1F2428;
+}
+.contr{
+    display: flex;
+    padding-right: 30px;
+}
+.for .cards .cardiki{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    border-left: 1px solid #C0C9D7;
+    padding-left: 30px;
+    border-right: 1px solid #C0C9D7;
+    padding-right: 30px;
+}
+.simple{
+    padding-top: 150px;
+    width: 85%;
+    margin: 0 auto;
+}
+.simple h2{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 56px;
+    color: #1F2428;
+    max-width: 695px;
+    width: 100%;
+}
+.simple .cards{
+    display: flex;
+    justify-content: space-between;
+}
+.simple .card h3{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #1F2428;
+    max-width: 192px ;
+    width: 100%;
+    margin-top: 10px;
+}
+.simple .card h4{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1F2428;
+    max-width: 328px;
+    width: 100%;
+    margin-top: 7px;
+}
+.simple h6{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+    color: #1F2428;
+    max-width: 660px;
+    width: 100%;
+    opacity: 0.7;
+    margin-top: 30px;
+}
+.simple button{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px 30px;
+    border: none;
+    background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+    box-shadow: 0px 4px 4px rgba(1, 203, 124, 0.2);
+    border-radius: 36px;
+    margin-top: 30px;
+}
+.klent{
+    margin-top: 150px;
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.klent h2{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 56px;
+    color: #1F2428;
+    max-width: 804px;
+    width: 100%;
+}
+.klent p{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+    color: #1F2428;
+    max-width: 540px;
+    width: 100%;
+}
+.klent .cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.klent .cards .card{
+    width: 387px;
+    height: 250px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 70px rgba(138, 138, 138, 0.1);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.klent .cards .card .text{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.klent .cards .card h3{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #1F2428;
+    margin-top: 20px;
+}
+.klent .cards .card h4{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F2428;
+    max-width: 282px;
+    width: 100%;
+    margin-top: 20px;
+}
+.otziv{
+    padding-top: 80px;
+    width: 85%;
+    margin: 0 auto;
+}
+.otziv .cards{
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.otziv .card{
+    display: flex;
+    align-items: center;
+    width: 585px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 70px rgba(138, 138, 138, 0.1);
+    border-radius: 16px;
+    gap: 30px;
+    margin-top: 20px;
+}
+.otziv .card h3{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #1F2428;
+}
+.otziv .card h4{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F2428;
+}
+.fax{
+    margin-top: 60px;
+}
+.fax h5{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1F2428;
+}
+.fax h6{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1F2428;
+}
+.great{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.great h2{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 56px;
+    color: #1F2428;
+    max-width: 1100px;
+    width: 100%;
+}
+.great p{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 36px;
+    color: #1F2428;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+.subscribe{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 150px;
+    background: linear-gradient(79.63deg, #5B52A3 1.08%, #40B8EA 100%);
+    border-radius: 36px;
+}
+.subscribe .container{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 66px;
+    padding-bottom: 66px;
+}
+.subscribe h2{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #FFFFFF;
+    max-width: 390px;
+    width: 100%;
+}
+.subscribe a{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    max-width: 510px;
+    width: 100%;
+    border-bottom: 1px solid #FFFFFF;
+    margin-top: 30px;
+}
+.subscribe button{
+    font-family: 'Gilroy';
+    padding: 20px 25px;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background: linear-gradient(79.63deg, #5B52A3 1.08%, #40B8EA 100%);
+    border-radius: 36px;
+    margin-top: 30px;
+}
+footer{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+
+}
+footer ul h2{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #1F2428;
+}
+footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer ul li{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1F2428;
+}
+footer .icons{
+    margin-top: 20px;
+}
+.foot-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+
+}
+.foot-top h2{
+    width: 95%;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: #1F2428;
+    border-top: 1px solid#C0C9D7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+@media only screen and (max-width:1400px){
+    .dific{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:1350px){
+    .delivery{
+        flex-direction: column;
+        align-content: center;
+    }
+    .delivery .left h1{
+        font-size: 42px;
+        line-height: 50px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .delivery .left p{
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .delivery .left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+        .delivery .left button{
+            margin-top: 6px;
+        }
+        .delivery .left p{
+            margin-top: 4px;
+        }
+        .econom-cards{
+            width: 95%;
+            flex-direction: column;
+            align-items: center;
+        }
+        .card-section .cards{
+            margin-top: 40px;
+            flex-direction: column;
+            align-items: center;
+        }
+        .card-section{
+            align-items: center ;
+        }
+        .subscribe .container{
+            width: 95%;
+            flex-direction: column;
+        }
+}
+
+@media only screen and (max-width:1320px){
+    nav{
+        position: fixed;
+        left: -100%;
+        top: 0;
+        max-width: 300px;
+        height: 100vh;
+        width: 100%;
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: 0.4s;
+        gap: 5;
+    }
+    #menu{
+        display: block;
+    }
+    .entrance{
+        display: none;
+    }
+    nav .user{
+        display: block;
+    }
+    nav .nav-btn{
+        display: block;
+    }
+    .our{
+        width: 95%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .our .right{
+        padding-bottom: 20px;
+    }
+    .our .right{
+        display: flex;
+        align-items: center;
+    }
+    .card-section{
+        justify-content: center ;
+    }
+}
+
+@media only screen and (max-width:1100px){
+    .many .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .for .cards .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .for .cards .card .contr{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .simple .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .klent .cards{
+        flex-direction: column;
+    }
+    .great h2{
+        font-size: 36px;
+        line-height: 46px;
+        text-align: center;
+    }
+    .great p{
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    footer ul{
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .delivery .right{
+        max-width: 473px;
+        width: 100%;
+        height: 471.12px;
+        margin: 40px;
+    }
+    .delivery .right img{
+        width: 100%;
+    }
+    .delivery .left h1{
+        font-size: 42px;
+        line-height: 50px;
+        margin-top: 20px;
+        text-align: center;
+        padding: 20px;
+    }
+    .delivery .left p{
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        padding: 20px;
+    }
+    .many .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .many h2{
+        max-width: 477px;
+        text-align: center;
+        width: 100%;
+        font-size: 34px;
+    }
+    .many h2{
+        text-align: center;
+    }
+    .dific-bottom{
+        width: 85%;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        margin-top: 100px;
+    }
+    .our .right h2{
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 30px;
+        color: #FFFFFF;
+        max-width: 703px;
+        width: 100%;
+        padding: 10px;
+    }
+    .our .right p{
+        font-size: 16px;
+        line-height: 25px;
+        padding: 10px;
+    }
+    .our .left{
+        max-width: 400px;
+        width: 100%;
+    }
+    .our .left img{
+        width: 100%;
+    }
+    .for h2{
+        font-size: 26px;
+    }
+    .for .cards .card h3{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .simple{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .simple h2{
+        font-size: 34px;
+    }
+    .simple h6{
+        font-size: 18px;
+        max-width: 300px;
+        text-align: center;
+    }
+    .klent h2{
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .klent p{
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .klent .cards .card{
+        width: 247px;
+        height: 250px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 70px rgba(138, 138, 138, 0.1);
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .klent .cards .card .text{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .klent .cards .card h3{
+        text-align: center;
+    }
+    .klent .cards .card h4{
+        text-align: center;
+    }
+    .otziv{
+        padding-top: 80px;
+        width: 95%;
+    }
+    .otziv h2{
+        text-align: center;
+    }
+    .otziv .card{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .otziv .card{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .otziv .card h4{
+        font-size: 16px;
+        max-width: 270px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:510px){
+    #menu{
+        font-size: 22px;
+    }
+    .nav{
+        width: 95%;
+    }
+    .delivery .right{
+        max-width: 273px;
+        width: 100%;
+        height: 271.12px;
+        padding: 40px;
+    }
+    .delivery .right img{
+        width: 100%;
+    }
+    .delivery .left h1{
+        font-size: 28px;
+        line-height: 50px;
+        margin-top: 20px;
+        text-align: center;
+        padding: 20px;
+    }
+    .delivery .left p{
+        font-size: 14px;
+        line-height: 30px;
+        text-align: center;
+        padding: 20px;
+    }
+    .delivery .left button{
+        border: none;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        max-width: 180px;
+        width: 100%;
+        height: 66px;
+    }
+    .many h2{
+        max-width: 477px;
+        text-align: center;
+        width: 100%;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .dific .left .card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        max-width: 280px;
+        width: 100%;
+        height: 100px;
+        background: #F2F6FC;
+        border-radius: 16px;
+        margin-left: 30px;
+    }
+    .dific .left .card h3{
+        font-size: 18px;
+        line-height: 20px;
+        color: #1F2428;
+    }
+    .dific .left .card p{
+        font-size: 26px;
+        line-height: 26px;
+    }
+    .dific .mid{
+        width: 300px;
+        margin-top: 20px;
+    }
+    .dific .mid img{
+        width: 100%;
+    }
+    .dific{
+        flex-direction: column;
+    }
+    .dific .left h2{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .our .left{
+        max-width: 250px;
+        width: 100%;
+    }
+    .our .left img{
+        width: 100%;
+    }
+    .our .right button{
+        font-size: 16px;
+        width: 200px;
+        height: 66px;
+    }
+    .delivery .left h1{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .delivery .left p{
+        font-size: 12px;
+    }
+    .our .right h2{
+        font-size: 22px;
+    }
+    .okey-post h2{
+        font-size: 34px;
+        line-height: 46px;
+    }
+    .okey-post h3{
+        font-size: 16px;
+        line-height: 36px;
+    }
+    .for .cards .card h3{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .for{
+        width:100%;
+    }
+    .simple h2{
+        font-size: 24px;
+        line-height: 50px;
+    }
+    .great h2{
+        font-size: 26px;
+        line-height: 46px;
+        text-align: center;
+    }
+    .otziv .card{
+        text-align: center;
+    }
+    .great p{
+        font-size: 14px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .subscribe h2{
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+        color: #FFFFFF;
+        max-width: 390px;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .dific .mid{
+        width: 200px;
+        margin-top: 20px;
+    }
+    .dific .left h2{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .dific .left .card{
+        margin-left: 5px;
+
+    }
+    .okey-post h2{
+        font-size: 18px;
+        line-height: 46px;
+    }
+    .okey-post h3{
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
